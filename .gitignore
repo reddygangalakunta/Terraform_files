@@ -1,0 +1,17 @@
+# ignore all the state files
+*.tfstate
+*.tfstate.*
+
+# ignore all terraform lock files
+*.lock.hcl
+
+# ignore all terraform folders
+.terraform/
+
+
+# ignore these files as they contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# ignore this specific main.tf file as it contains sensitive data
+modularity/main.tf
